@@ -1,0 +1,12 @@
+In [1]: # Calculate the predictions: preds
+        preds = (input_data*weights).sum()
+        
+        # Calculate the error: error
+        error = preds - target
+        
+        # Calculate the slope: slope
+        slope = 2 * input_data * error
+        
+        # Print the slope
+        print(slope)
+[14 28 42]
